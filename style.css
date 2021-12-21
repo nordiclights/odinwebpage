@@ -28,6 +28,7 @@ html {
 .logo {
     color: #F9FAF8;
     font-size: 24px;
+    font-weight: 600;
 }
 
 .navigation {
@@ -79,6 +80,21 @@ h2 {
     border: 1px solid #000;
 }
 
+.btn-1,
+.btn-2 {
+    background-color: #3882F6;
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+    padding: auto;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.btn-1 {
+    border: 1px solid #3882F6;
+}
+
 flex-cont-1, 
 flex-cont-2 {
     max-height: 330px;
@@ -119,7 +135,19 @@ h3 {
     align-items: center;
     background-color: #E5E7EB;
     color: #1F2937;
-    padding: 10px 400px 100px 400px;
+    padding: 50px 300px 50px 300px;
+}
+
+blockquote {
+    font-style: italic;
+    font-weight: 100;
+    font-size: 36px;
+}
+
+.quote {
+    font-weight: bold;
+    font-size: 28px;
+
 }
 
 .container-4 {
@@ -142,6 +170,12 @@ h3 {
     border-radius: 8px;
     padding: 10px 200px 10px 200px;
     gap: 100px;
+    color: #F9FAF8;
+
+}
+
+.btn-2 {
+    border: 2px solid #F9FAF8;
 }
 
 footer {
